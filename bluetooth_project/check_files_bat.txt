@@ -1,0 +1,190 @@
+@echo off
+REM ============================================================================
+REM File Checker - Verifies all required project files
+REM ============================================================================
+REM Run this script to check which files are present/missing
+REM ============================================================================
+
+SETLOCAL EnableDelayedExpansion
+
+COLOR 0B
+TITLE File Checker - Bluetooth Proximity Lock
+
+REM Change to script directory
+cd /d "%~dp0"
+
+cls
+echo.
+echo ========================================================================
+echo                    FILE CHECKER UTILITY
+echo ========================================================================
+echo.
+echo Current Directory: %CD%
+echo.
+echo Checking for required project files...
+echo.
+echo ========================================================================
+echo.
+
+set TOTAL_FILES=9
+set FOUND_FILES=0
+set MISSING_FILES=0
+
+REM Check each file
+echo Required Python Modules:
+echo ------------------------
+
+if exist "config_module.py" (
+    echo [FOUND] config_module.py
+    set /a FOUND_FILES+=1
+) else (
+    COLOR 0C
+    echo [MISSING] config_module.py
+    set /a MISSING_FILES+=1
+)
+
+if exist "bluetooth_scanner_module.py" (
+    echo [FOUND] bluetooth_scanner_module.py
+    set /a FOUND_FILES+=1
+) else (
+    COLOR 0C
+    echo [MISSING] bluetooth_scanner_module.py
+    set /a MISSING_FILES+=1
+)
+
+if exist "system_control_module.py" (
+    echo [FOUND] system_control_module.py
+    set /a FOUND_FILES+=1
+) else (
+    COLOR 0C
+    echo [MISSING] system_control_module.py
+    set /a MISSING_FILES+=1
+)
+
+if exist "logger_module.py" (
+    echo [FOUND] logger_module.py
+    set /a FOUND_FILES+=1
+) else (
+    COLOR 0C
+    echo [MISSING] logger_module.py
+    set /a MISSING_FILES+=1
+)
+
+if exist "main_module.py" (
+    echo [FOUND] main_module.py
+    set /a FOUND_FILES+=1
+) else (
+    COLOR 0C
+    echo [MISSING] main_module.py
+    set /a MISSING_FILES+=1
+)
+
+echo.
+echo Support Files:
+echo --------------
+
+if exist "requirements_file.txt" (
+    echo [FOUND] requirements_file.txt
+    set /a FOUND_FILES+=1
+) else (
+    COLOR 0E
+    echo [MISSING] requirements_file.txt ^(optional^)
+    set /a MISSING_FILES+=1
+)
+
+if exist "setup_and_run.bat" (
+    echo [FOUND] setup_and_run.bat
+    set /a FOUND_FILES+=1
+) else (
+    COLOR 0E
+    echo [MISSING] setup_and_run.bat
+    set /a MISSING_FILES+=1
+)
+
+if exist "quick_start.bat" (
+    echo [FOUND] quick_start.bat
+    set /a FOUND_FILES+=1
+) else (
+    COLOR 0E
+    echo [MISSING] quick_start.bat
+    set /a MISSING_FILES+=1
+)
+
+if exist "diagnostics.py" (
+    echo [FOUND] diagnostics.py
+    set /a FOUND_FILES+=1
+) else (
+    COLOR 0E
+    echo [MISSING] diagnostics.py
+    set /a MISSING_FILES+=1
+)
+
+echo.
+echo ========================================================================
+echo                           SUMMARY
+echo ========================================================================
+echo.
+echo Total Files Checked: %TOTAL_FILES%
+echo Files Found: %FOUND_FILES%
+echo Files Missing: %MISSING_FILES%
+echo.
+
+if !MISSING_FILES! equ 0 (
+    COLOR 0A
+    echo [SUCCESS] All files are present!
+    echo.
+    echo You can now run: setup_and_run.bat
+    echo.
+) else (
+    COLOR 0C
+    echo [ERROR] Some files are missing!
+    echo.
+    echo Please copy all required files to this directory:
+    echo %CD%
+    echo.
+    echo Required files:
+    echo   1. config_module.py
+    echo   2. bluetooth_scanner_module.py
+    echo   3. system_control_module.py
+    echo   4. logger_module.py
+    echo   5. main_module.py
+    echo   6. requirements_file.txt
+    echo   7. setup_and_run.bat
+    echo   8. quick_start.bat
+    echo   9. diagnostics.py
+    echo.
+    echo Where to get the files:
+    echo   - Download all files from the same source
+    echo   - Save them in ONE folder
+    echo   - Run this checker again
+    echo.
+)
+
+echo ========================================================================
+echo.
+
+REM List all Python files in current directory
+echo Files currently in this directory:
+echo.
+dir /b *.py 2>nul
+if %errorlevel% neq 0 (
+    echo   ^(No Python files found^)
+)
+echo.
+dir /b *.bat 2>nul
+if %errorlevel% neq 0 (
+    echo   ^(No batch files found^)
+)
+echo.
+dir /b *.txt 2>nul
+if %errorlevel% neq 0 (
+    echo   ^(No text files found^)
+)
+echo.
+
+echo ========================================================================
+echo.
+pause
+
+ENDLOCAL
+exit /b %errorlevel%

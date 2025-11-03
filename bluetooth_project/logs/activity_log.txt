@@ -1,0 +1,82 @@
+[2025-10-10 00:33:59] [SYSTEM_START] Bluetooth Proximity Lock system started | RSSI: N/A
+[2025-10-10 00:33:59] [INFO] Diagnostic test started | RSSI: N/A
+[2025-10-10 00:33:59] [PHONE_DETECTED] Target device detected in range | RSSI: -65 dBm
+[2025-10-10 00:33:59] [SYSTEM_LOCKED] System locked (device out of range) | RSSI: -85 dBm
+[2025-10-10 00:33:59] [WARNING] Low RSSI detected | RSSI: N/A
+[2025-10-10 00:33:59] [ERROR] Bluetooth scan failure | RSSI: N/A
+[2025-10-10 00:33:59] [SYSTEM_UNLOCKED] System unlocked (device nearby) | RSSI: -60 dBm
+[2025-10-10 00:34:30] [SYSTEM_STOP] Bluetooth Proximity Lock system stopped | RSSI: N/A
+[2025-10-10 00:34:30] [SYSTEM_STOP] Bluetooth Proximity Lock system stopped | RSSI: N/A
+[2025-10-10 01:55:01] [SYSTEM_START] Bluetooth Proximity Lock system started | RSSI: N/A
+[2025-10-10 01:55:01] [SYSTEM_STOP] Bluetooth Proximity Lock system stopped | RSSI: N/A
+[2025-10-10 02:23:37] [SYSTEM_START] Bluetooth Proximity Lock system started | RSSI: N/A
+[2025-10-10 02:23:40] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-10 02:23:49] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-10 02:23:49] [PHONE_NOT_DETECTED] Target device not detected | RSSI: N/A
+[2025-10-10 02:23:49] [SYSTEM_LOCKED] System locked (device out of range) | RSSI: N/A
+[2025-10-10 02:23:57] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-10 02:24:05] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-10 02:24:18] [SYSTEM_START] Bluetooth Proximity Lock system started | RSSI: N/A
+[2025-10-10 02:24:21] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-10 02:24:29] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-10 02:24:29] [PHONE_NOT_DETECTED] Target device not detected | RSSI: N/A
+[2025-10-10 02:24:29] [SYSTEM_LOCKED] System locked (device out of range) | RSSI: N/A
+[2025-10-10 02:24:37] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-10 02:24:45] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-10 02:25:00] [SYSTEM_START] Bluetooth Proximity Lock system started | RSSI: N/A
+[2025-10-10 02:25:03] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-10 02:25:11] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-10 02:25:11] [PHONE_NOT_DETECTED] Target device not detected | RSSI: N/A
+[2025-10-10 02:25:11] [SYSTEM_LOCKED] System locked (device out of range) | RSSI: N/A
+[2025-10-10 02:25:19] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-10 02:25:27] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-10 04:03:03] [SYSTEM_START] Bluetooth Proximity Lock system started | RSSI: N/A
+[2025-10-10 04:03:06] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-10 04:03:14] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-10 04:03:14] [PHONE_NOT_DETECTED] Target device not detected | RSSI: N/A
+[2025-10-10 04:03:15] [SYSTEM_LOCKED] System locked (device out of range) | RSSI: N/A
+[2025-10-10 04:03:23] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-10 04:03:31] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-10 04:03:39] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-10 04:03:44] [SYSTEM_STOP] Bluetooth Proximity Lock system stopped | RSSI: N/A
+[2025-10-10 04:03:44] [SYSTEM_STOP] Bluetooth Proximity Lock system stopped | RSSI: N/A
+[2025-10-10 04:04:07] [SYSTEM_START] Bluetooth Proximity Lock system started | RSSI: N/A
+[2025-10-10 04:04:10] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-10 04:04:18] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-10 04:04:18] [PHONE_NOT_DETECTED] Target device not detected | RSSI: N/A
+[2025-10-10 04:04:18] [SYSTEM_LOCKED] System locked (device out of range) | RSSI: N/A
+[2025-10-10 04:04:26] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-10 04:04:35] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-10 04:04:43] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-10 04:04:51] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-10 04:04:59] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-10 04:05:07] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-10 04:05:15] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-10 04:05:23] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-11 22:46:19] [SYSTEM_START] Bluetooth Proximity Lock system started | RSSI: N/A
+[2025-10-11 22:46:23] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-11 22:46:31] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-11 22:46:31] [PHONE_NOT_DETECTED] Target device not detected | RSSI: N/A
+[2025-10-11 22:46:31] [SYSTEM_LOCKED] System locked (device out of range) | RSSI: N/A
+[2025-10-11 22:46:39] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-11 22:46:47] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-11 22:46:55] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-12 00:23:12] [SYSTEM_START] Bluetooth Proximity Lock system started | RSSI: N/A
+[2025-10-12 00:23:15] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-12 00:23:23] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-12 00:23:23] [PHONE_NOT_DETECTED] Target device not detected | RSSI: N/A
+[2025-10-12 00:23:23] [SYSTEM_LOCKED] System locked (device out of range) | RSSI: N/A
+[2025-10-12 00:23:31] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-12 00:23:39] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-12 00:23:47] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-12 00:23:52] [SYSTEM_STOP] Bluetooth Proximity Lock system stopped | RSSI: N/A
+[2025-10-12 00:23:54] [SYSTEM_STOP] Bluetooth Proximity Lock system stopped | RSSI: N/A
+[2025-10-25 11:28:41] [SYSTEM_START] Bluetooth Proximity Lock system started | RSSI: N/A
+[2025-10-25 11:28:44] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-25 11:28:53] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-25 11:28:53] [PHONE_NOT_DETECTED] Target device not detected | RSSI: N/A
+[2025-10-25 11:28:53] [SYSTEM_LOCKED] System locked (device out of range) | RSSI: N/A
+[2025-10-25 11:29:01] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-25 11:29:09] [INFO] phone RSSI: N/A | RSSI: N/A
+[2025-10-25 11:29:14] [SYSTEM_STOP] Bluetooth Proximity Lock system stopped | RSSI: N/A
+[2025-10-25 11:29:16] [SYSTEM_STOP] Bluetooth Proximity Lock system stopped | RSSI: N/A
